@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="assets/css/theme.css" />
+    <title>Kalkulator Pertidaksamaan Kuadrat</title>
+  </head>
+
+  <body class="bg-light">
+    <div>
+      <div>
+        <div class="bg-primary pt-10 pb-21"></div>
+        <div class="container-fluid mt-n22 px-6">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-12">
+              <div>
+                <div class="mb-2 mb-lg-0 text-center">
+                  <h3 class="mb-0 text-white">UNIVERSITAS DIAN NUSANTARA</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 mt-6">
+              <div class="card">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <div>
+                      <h4 class="mb-0">Data Diri</h4>
+                    </div>
+                  </div>
+                  <div>
+                    <table>
+                      <tr>
+                        <th>Nama </th>
+                        <td>: Mikael Irvan Jodi</td>
+                      </tr>
+                      <tr>
+                        <th>NIM </th>
+                        <td>: 411231082</td>
+                      </tr>
+                      <tr>
+                        <th>Prodi </th>
+                        <td>: Teknik Informatika</td>
+                      </tr>
+                      <tr>
+                        <th>Tugas </th>
+                        <td>: Kalkulator Pertidaksamaan Kuadrat</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 mt-4">
+              <div class="card">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <div>
+                      <h4 class="mb-0">Penjelasan</h4>
+                    </div>
+                  </div>
+                  <div>
+                    <p><b>APA ITU PERTIDAKSAMAAN KUADRAT ?</b></p>
+                    <p>Pertidaksamaan kuadrat adalah pernyataan matematika yang menghubungkan ekspresi kuadrat sebagai kurang dari atau lebih besar dari yang lain. Beberapa contoh atau bentuk umumnya adalah : (ax² + bx + c > 0), (ax² + bx + c ≥ 0), (ax² + bx + c < 0), (ax² + bx + c ≤ 0)</p>
+                    <br>
+                    <p>Berikut Kalkulator Pertidaksamaan Kuadrat : </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mt-4 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <div>
+                      <h4 class="mb-0">Kalkulator Pertidaksamaansamaan Kuadrat</h4>
+                    </div>
+                  </div>
+                  <div>
+                    <input type="text" style="width: 40px;" id="a">
+                    <label for="a"> x² + </label>
+                    <input type="text" style="width: 40px;" id="b">
+                    <label for="b"> x + </label>
+                    <input type="text" style="width: 40px;" id="c">
+                    <div class="mt-2">
+                        <button class="btn btn-primary" onclick="calculateQuadratic()">Hitung</button><br><br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mt-4 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <div>
+                      <h4 class="mb-0">Hasil Pertidaksamaansamaan Kuadrat</h4>
+                    </div>
+                  </div>
+                  <div>
+                    <p>Hasil: <span id="result"></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.1/math.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
